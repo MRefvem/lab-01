@@ -8,6 +8,7 @@ body {
   width: 480px;
   line-height: 75px;
   border: 1px solid black;
+  background-color: lightblue;
 }
 
 #b {
@@ -15,22 +16,25 @@ body {
   width: 480px;
   line-height: 150px;
   border: 1px solid black;
+  background-color: lightgreen;
 }
 
 .cd {
   height: 125px;
   width: 480px;
   line-height: 125px;
+  float: left;
   border: 1px solid black;
+  background-color: lightpink;
 }
 
 .efgh {
   height: 250px;
   width: 240px;
   line-height: 250px;
-  display: inline-block;
-  /* float: left; */
+  float: left;
   border: 1px solid black;
+  background-color: lightsalmon;
 }
 
 #i {
@@ -38,4 +42,5 @@ body {
   width: 480px;
   line-height: 80px;
   border: 1px solid black;
+  background-color: lightgray;
 }
