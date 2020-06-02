@@ -1,0 +1,35 @@
+#a {
+  height: 75px;
+  width: 480px;
+  line-height: 75px;
+  border: 1px solid black;
+}
+
+#b {
+  height: 150px;
+  width: 480px;
+  line-height: 150px;
+  border: 1px solid black;
+}
+
+.cd {
+  height: 125px;
+  width: 480px;
+  line-height: 125px;
+  border: 1px solid black;
+}
+
+.efgh {
+  height: 250px;
+  width: 240px;
+  line-height: 250px;
+  float: left;
+  border: 1px solid black;
+}
+
+#i {
+  height: 80px;
+  width: 480px;
+  line-height: 80px;
+  border: 1px solid black;
+}
