@@ -1,0 +1,145 @@
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 768px;
+    margin: auto;
+  }
+  
+  main {
+    width: 768px;
+    height: 1024px;;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 150px 300px 187px 187px 200px;
+  }
+  
+  div {
+    text-align: center;
+    border: 1px solid purple;
+  }
+  
+  div:nth-child(1) {
+    background-color: mediumslateblue;
+    line-height: 150px;
+    grid-column-start: span 5;
+  }
+  
+  div:nth-child(2) {
+    background-color: mediumaquamarine;
+    line-height: 674px;
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+  }
+  
+  div:nth-child(3), div:nth-child(4) {
+    line-height: 300px;
+  }
+  
+  div:nth-child(3) {
+    background-color: mediumorchid;
+  }
+  
+  div:nth-child(4) {
+    background-color: mediumturquoise;
+  }
+  
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
+    line-height: 187px;
+    grid-column-start: span 2;
+  }
+  
+  div:nth-child(5) {
+    background-color: orangered;
+  }
+  
+  div:nth-child(6) {
+    background-color: mediumseagreen;
+  }
+  
+  div:nth-child(7) {
+    background-color: mediumvioletred;
+  }
+  
+  div:nth-child(8) {
+    background-color: darkmagenta;
+  }
+  
+  div:nth-child(9) {
+    background-color: mediumorchid;
+    line-height: 200px;
+    grid-column-start: span 5;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  body {
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  main {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100px 200px 250px 150px;
+  }
+  
+  div {
+    text-align: center;
+    border: 1px solid purple;
+  }
+  
+  div:nth-child(1) {
+    background-color: blue;
+    line-height: 100px;
+    grid-column-start: span 5;
+  }
+  
+  div:nth-child(2) {
+    background-color: green;
+    line-height: 600px;
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+  }
+  
+  div:nth-child(3), div:nth-child(4) {
+    line-height: 200px;
+  }
+  
+  div:nth-child(3) {
+    background-color: hotpink;
+  }
+  
+  div:nth-child(4) {
+    background-color: aqua;
+  }
+  
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8) {
+    line-height: 250px;
+    grid-column-start: span 1;
+  }
+  
+  div:nth-child(5) {
+    background-color: orange;
+  }
+  
+  div:nth-child(6) {
+    background-color: darkcyan;
+  }
+  
+  div:nth-child(7) {
+    background-color: deeppink;
+  }
+  
+  div:nth-child(8) {
+    background-color: darkmagenta;
+  }
+  
+  div:nth-child(9) {
+    background-color: darkslategray;
+    line-height: 150px;
+    grid-column-start: span 4;
+  }
+}
